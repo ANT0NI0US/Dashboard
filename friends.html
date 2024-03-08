@@ -1,0 +1,602 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Dashboard</title>
+    <link rel="icon" href="./imgs/logo/logo.png" />
+    <meta
+      name="description"
+      content="This is my first dashboard using Html5 and CSS"
+    />
+    <link rel="stylesheet" href="./css/index.css" />
+    <link rel="stylesheet" href="./css/framework.css" />
+    <!-- font awesome library -->
+    <link rel="stylesheet" href="./css/all.min.css" />
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;500&#038;display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <div class="page d-flex">
+      <div class="sidebar p-20 p-relative bg-dark-leaden">
+        <h1 class="p-relative t-center c-silver trans-uppercase">totos</h1>
+        <ul class="mt-30">
+          <li>
+            <a
+              href="index.html"
+              class="trans-capitalize c-light-leaden d-flex align-center"
+            >
+              <i class="fa-solid fa-chart-line fa-fw mr-10"></i>
+              <span>dashboard</span>
+            </a>
+          </li>
+          <li>
+            <a
+              href="settings.html"
+              class="trans-capitalize c-light-leaden d-flex align-center"
+            >
+              <i class="fa-solid fa-gear fa-fw mr-10"></i>
+              <span>settings</span>
+            </a>
+          </li>
+          <li>
+            <a
+              href="profile.html"
+              class="trans-capitalize c-light-leaden d-flex align-center"
+            >
+              <i class="fa-solid fa-user fa-fw mr-10"></i>
+              <span>profile</span>
+            </a>
+          </li>
+          <li>
+            <a
+              href="projects.html"
+              class="trans-capitalize c-light-leaden d-flex align-center"
+            >
+              <i class="fa-solid fa-diagram-project fa-fw mr-10"></i>
+              <span>projects</span>
+            </a>
+          </li>
+          <li>
+            <a
+              href="courses.html"
+              class="trans-capitalize c-light-leaden d-flex align-center"
+            >
+              <i class="fa-solid fa-graduation-cap fa-fw mr-10"></i>
+              <span>courses</span>
+            </a>
+          </li>
+          <li>
+            <a
+              href="friends.html"
+              class="active trans-capitalize c-light-leaden d-flex align-center"
+            >
+              <i class="fa-solid fa-user-group fa-fw mr-10"></i>
+              <span>friends</span>
+            </a>
+          </li>
+          <li>
+            <a
+              href="files.html"
+              class="trans-capitalize c-light-leaden d-flex align-center"
+            >
+              <i class="fa-regular fa-file fa-fw mr-10"></i>
+              <span>files</span>
+            </a>
+          </li>
+          <li>
+            <a
+              href="plans.html"
+              class="trans-capitalize c-light-leaden d-flex align-center"
+            >
+              <i class="fa-regular fa-calendar-days fa-fw mr-10"></i>
+              <span>plans</span>
+            </a>
+          </li>
+        </ul>
+      </div>
+
+      <div class="content">
+        <div class="head bg-dark-leaden between-flex p-20">
+          <div class="search p-relative">
+            <input type="search" class="br-10" placeholder="Type A Keyword" />
+          </div>
+          <div class="notification between-flex">
+            <i class="fa-solid fa-bell c-light-leaden mr-20 p-relative"></i>
+            <img src="./imgs/profile/avatar.png" alt="avatar-image" />
+          </div>
+        </div>
+
+        <div class="main-paragraph">
+          <h2
+            class="paragraph-main p-20 trans-capitalize p-relative w-fit size-30 c-silver"
+          >
+            friends
+          </h2>
+        </div>
+
+        <div class="friends-content d-grid m-20 c-white">
+          <div class="box bg-dark-leaden p-20 br-10 p-relative">
+            <div class="contact">
+              <i class="fa-solid fa-phone size-13 p-10 cursor-p mr-5"></i>
+              <i class="fa-regular fa-envelope size-13 p-10 cursor-p"></i>
+            </div>
+
+            <div class="head center-flex dir-coulmn">
+              <img src="./imgs/friends/friend-1.jpg" alt="friend-image-1" />
+              <span
+                class="name trans-capitalize size-20 fw-bold c-silver mt-15 mb-10"
+                >ahmed nasser</span
+              >
+              <span class="skill trans-capitalize c-light-leaden size-15"
+                >javascript developer</span
+              >
+            </div>
+
+            <div class="body p-relative vip pt-20 pb-20 mt-20 mb-20">
+              <ul class="size-15">
+                <li class="mb-10">
+                  <i class="fa-regular fa-face-smile mr-10"></i>
+                  <span>99 Friend</span>
+                </li>
+                <li class="mb-10">
+                  <i class="fa-solid fa-bars-progress mr-10"></i>
+                  <span>15 Projects</span>
+                </li>
+                <li>
+                  <i class="fa-regular fa-newspaper mr-10"></i>
+                  <span>25 Articles</span>
+                </li>
+              </ul>
+            </div>
+
+            <div class="foot between-flex">
+              <div class="text">
+                <span class="c-light-leaden size-13">Joined 02/10/2021</span>
+              </div>
+              <div class="function">
+                <span
+                  class="trans-capitalize br-10 size-15 btn-shape bg-blue mr-5"
+                  >profile</span
+                >
+                <span class="trans-capitalize br-10 size-15 btn-shape bg-red"
+                  >remove</span
+                >
+              </div>
+            </div>
+          </div>
+
+          <div class="box bg-dark-leaden p-20 br-10 p-relative">
+            <div class="contact">
+              <i class="fa-solid fa-phone size-13 p-10 cursor-p mr-5"></i>
+              <i class="fa-regular fa-envelope size-13 p-10 cursor-p"></i>
+            </div>
+            <div class="head center-flex dir-coulmn">
+              <img src="./imgs/friends/friend-2.jpg" alt="friend-image-2" />
+              <span
+                class="name trans-capitalize size-20 fw-bold c-silver mt-15 mb-10"
+                >omar fathy</span
+              >
+              <span class="skill trans-capitalize c-light-leaden size-15"
+                >cloud developer</span
+              >
+            </div>
+            <div class="body pt-20 pb-20 mt-20 mb-20">
+              <ul class="size-15">
+                <li class="mb-10">
+                  <i class="fa-regular fa-face-smile mr-10"></i>
+                  <span>30 Friend</span>
+                </li>
+                <li class="mb-10">
+                  <i class="fa-solid fa-bars-progress mr-10"></i>
+                  <span>11 Projects</span>
+                </li>
+                <li>
+                  <i class="fa-regular fa-newspaper mr-10"></i>
+                  <span>12 Articles</span>
+                </li>
+              </ul>
+            </div>
+            <div class="foot between-flex">
+              <div class="text">
+                <span class="c-light-leaden size-13">Joined 02/08/2020</span>
+              </div>
+              <div class="function">
+                <span
+                  class="trans-capitalize br-10 size-15 btn-shape bg-blue mr-5"
+                  >profile</span
+                >
+                <span class="trans-capitalize br-10 size-15 btn-shape bg-red"
+                  >remove</span
+                >
+              </div>
+            </div>
+          </div>
+
+          <div class="box bg-dark-leaden p-20 br-10 p-relative">
+            <div class="contact">
+              <i class="fa-solid fa-phone size-13 p-10 cursor-p mr-5"></i>
+              <i class="fa-regular fa-envelope size-13 p-10 cursor-p"></i>
+            </div>
+            <div class="head center-flex dir-coulmn">
+              <img src="./imgs/friends/friend-3.jpg" alt="friend-image-3" />
+              <span
+                class="name trans-capitalize size-20 fw-bold c-silver mt-15 mb-10"
+                >omar ahmed</span
+              >
+              <span class="skill trans-capitalize c-light-leaden size-15"
+                >mobile developer</span
+              >
+            </div>
+            <div class="body pt-20 pb-20 mt-20 mb-20">
+              <ul class="size-15">
+                <li class="mb-10">
+                  <i class="fa-regular fa-face-smile mr-10"></i>
+                  <span>80 Friend</span>
+                </li>
+                <li class="mb-10">
+                  <i class="fa-solid fa-bars-progress mr-10"></i>
+                  <span>20 Projects</span>
+                </li>
+                <li>
+                  <i class="fa-regular fa-newspaper mr-10"></i>
+                  <span>18 Articles</span>
+                </li>
+              </ul>
+            </div>
+            <div class="foot between-flex">
+              <div class="text">
+                <span class="c-light-leaden size-13">Joined 02/06/2020</span>
+              </div>
+              <div class="function">
+                <span
+                  class="trans-capitalize br-10 size-15 btn-shape bg-blue mr-5"
+                  >profile</span
+                >
+                <span class="trans-capitalize br-10 size-15 btn-shape bg-red"
+                  >remove</span
+                >
+              </div>
+            </div>
+          </div>
+
+          <div class="box bg-dark-leaden p-20 br-10 p-relative">
+            <div class="contact">
+              <i class="fa-solid fa-phone size-13 p-10 cursor-p mr-5"></i>
+              <i class="fa-regular fa-envelope size-13 p-10 cursor-p"></i>
+            </div>
+            <div class="head center-flex dir-coulmn">
+              <img src="./imgs/friends/friend-4.jpg" alt="friend-image-4" />
+              <span
+                class="name trans-capitalize size-20 fw-bold c-silver mt-15 mb-10"
+                >shady nabil</span
+              >
+              <span class="skill trans-capitalize c-light-leaden size-15"
+                >Back-End developer</span
+              >
+            </div>
+            <div class="body pt-20 pb-20 mt-20 mb-20">
+              <ul class="size-15">
+                <li class="mb-10">
+                  <i class="fa-regular fa-face-smile mr-10"></i>
+                  <span>70 Friend</span>
+                </li>
+                <li class="mb-10">
+                  <i class="fa-solid fa-bars-progress mr-10"></i>
+                  <span>30 Projects</span>
+                </li>
+                <li>
+                  <i class="fa-regular fa-newspaper mr-10"></i>
+                  <span>18 Articles</span>
+                </li>
+              </ul>
+            </div>
+            <div class="foot between-flex">
+              <div class="text">
+                <span class="c-light-leaden size-13">Joined 28/06/2020</span>
+              </div>
+              <div class="function">
+                <span
+                  class="trans-capitalize br-10 size-15 btn-shape bg-blue mr-5"
+                  >profile</span
+                >
+                <span class="trans-capitalize br-10 size-15 btn-shape bg-red"
+                  >remove</span
+                >
+              </div>
+            </div>
+          </div>
+
+          <div class="box bg-dark-leaden p-20 br-10 p-relative">
+            <div class="contact">
+              <i class="fa-solid fa-phone size-13 p-10 cursor-p mr-5"></i>
+              <i class="fa-regular fa-envelope size-13 p-10 cursor-p"></i>
+            </div>
+            <div class="head center-flex dir-coulmn">
+              <img src="./imgs/friends/friend-5.jpg" alt="friend-image-5" />
+              <span
+                class="name trans-capitalize size-20 fw-bold c-silver mt-15 mb-10"
+                >mohamed ibrahim</span
+              >
+              <span class="skill trans-capitalize c-light-leaden size-15"
+                >Algorithm developer</span
+              >
+            </div>
+            <div class="body pt-20 pb-20 mt-20 mb-20">
+              <ul class="size-15">
+                <li class="mb-10">
+                  <i class="fa-regular fa-face-smile mr-10"></i>
+                  <span>80 Friend</span>
+                </li>
+                <li class="mb-10">
+                  <i class="fa-solid fa-bars-progress mr-10"></i>
+                  <span>30 Projects</span>
+                </li>
+                <li>
+                  <i class="fa-regular fa-newspaper mr-10"></i>
+                  <span>18 Articles</span>
+                </li>
+              </ul>
+            </div>
+            <div class="foot between-flex">
+              <div class="text">
+                <span class="c-light-leaden size-13">Joined 28/08/2020</span>
+              </div>
+              <div class="function">
+                <span
+                  class="trans-capitalize br-10 size-15 btn-shape bg-blue mr-5"
+                  >profile</span
+                >
+                <span class="trans-capitalize br-10 size-15 btn-shape bg-red"
+                  >remove</span
+                >
+              </div>
+            </div>
+          </div>
+
+          <div class="box bg-dark-leaden p-20 br-10 p-relative">
+            <div class="contact">
+              <i class="fa-solid fa-phone size-13 p-10 cursor-p mr-5"></i>
+              <i class="fa-regular fa-envelope size-13 p-10 cursor-p"></i>
+            </div>
+            <div class="head center-flex dir-coulmn">
+              <img src="./imgs/friends/friend-6.jpg" alt="friend-image-6" />
+              <span
+                class="name trans-capitalize size-20 fw-bold c-silver mt-15 mb-10"
+                >amr hendawy</span
+              >
+              <span class="skill trans-capitalize c-light-leaden size-15"
+                >Back-End developer</span
+              >
+            </div>
+            <div class="body pt-20 pb-20 mt-20 mb-20">
+              <ul class="size-15">
+                <li class="mb-10">
+                  <i class="fa-regular fa-face-smile mr-10"></i>
+                  <span>70 Friend</span>
+                </li>
+                <li class="mb-10">
+                  <i class="fa-solid fa-bars-progress mr-10"></i>
+                  <span>30 Projects</span>
+                </li>
+                <li>
+                  <i class="fa-regular fa-newspaper mr-10"></i>
+                  <span>18 Articles</span>
+                </li>
+              </ul>
+            </div>
+            <div class="foot between-flex">
+              <div class="text">
+                <span class="c-light-leaden size-13">Joined 28/06/2020</span>
+              </div>
+              <div class="function">
+                <span
+                  class="trans-capitalize br-10 size-15 btn-shape bg-blue mr-5"
+                  >profile</span
+                >
+                <span class="trans-capitalize br-10 size-15 btn-shape bg-red"
+                  >remove</span
+                >
+              </div>
+            </div>
+          </div>
+
+          <div class="box bg-dark-leaden p-20 br-10 p-relative">
+            <div class="contact">
+              <i class="fa-solid fa-phone size-13 p-10 cursor-p mr-5"></i>
+              <i class="fa-regular fa-envelope size-13 p-10 cursor-p"></i>
+            </div>
+            <div class="head center-flex dir-coulmn">
+              <img src="./imgs/friends/friend-7.jpg" alt="friend-image-7" />
+              <span
+                class="name trans-capitalize size-20 fw-bold c-silver mt-15 mb-10"
+                >mohamed adel</span
+              >
+              <span class="skill trans-capitalize c-light-leaden size-15"
+                >Cloud developer</span
+              >
+            </div>
+            <div class="body pt-20 pb-20 mt-20 mb-20">
+              <ul class="size-15">
+                <li class="mb-10">
+                  <i class="fa-regular fa-face-smile mr-10"></i>
+                  <span>30 Friend</span>
+                </li>
+                <li class="mb-10">
+                  <i class="fa-solid fa-bars-progress mr-10"></i>
+                  <span>11 Projects</span>
+                </li>
+                <li>
+                  <i class="fa-regular fa-newspaper mr-10"></i>
+                  <span>12 Articles</span>
+                </li>
+              </ul>
+            </div>
+            <div class="foot between-flex">
+              <div class="text">
+                <span class="c-light-leaden size-13">Joined 02/08/2020</span>
+              </div>
+              <div class="function">
+                <span
+                  class="trans-capitalize br-10 size-15 btn-shape bg-blue mr-5"
+                  >profile</span
+                >
+                <span class="trans-capitalize br-10 size-15 btn-shape bg-red"
+                  >remove</span
+                >
+              </div>
+            </div>
+          </div>
+
+          <div class="box bg-dark-leaden p-20 br-10 p-relative">
+            <div class="contact">
+              <i class="fa-solid fa-phone size-13 p-10 cursor-p mr-5"></i>
+              <i class="fa-regular fa-envelope size-13 p-10 cursor-p"></i>
+            </div>
+            <div class="head center-flex dir-coulmn">
+              <img src="./imgs/friends/friend-8.jpg" alt="friend-image-8" />
+              <span
+                class="name trans-capitalize size-20 fw-bold c-silver mt-15 mb-10"
+                >ahmed abuzaid</span
+              >
+              <span class="skill trans-capitalize c-light-leaden size-15"
+                >Content developer</span
+              >
+            </div>
+            <div class="body p-relative vip pt-20 pb-20 mt-20 mb-20">
+              <ul class="size-15">
+                <li class="mb-10">
+                  <i class="fa-regular fa-face-smile mr-10"></i>
+                  <span>80 Friend</span>
+                </li>
+                <li class="mb-10">
+                  <i class="fa-solid fa-bars-progress mr-10"></i>
+                  <span>30 Projects</span>
+                </li>
+                <li>
+                  <i class="fa-regular fa-newspaper mr-10"></i>
+                  <span>18 Articles</span>
+                </li>
+              </ul>
+            </div>
+            <div class="foot between-flex">
+              <div class="text">
+                <span class="c-light-leaden size-13">Joined 28/08/2020</span>
+              </div>
+              <div class="function">
+                <span
+                  class="trans-capitalize br-10 size-15 btn-shape bg-blue mr-5"
+                  >profile</span
+                >
+                <span class="trans-capitalize br-10 size-15 btn-shape bg-red"
+                  >remove</span
+                >
+              </div>
+            </div>
+          </div>
+
+          <div class="box bg-dark-leaden p-20 br-10 p-relative">
+            <div class="contact">
+              <i class="fa-solid fa-phone size-13 p-10 cursor-p mr-5"></i>
+              <i class="fa-regular fa-envelope size-13 p-10 cursor-p"></i>
+            </div>
+            <div class="head center-flex dir-coulmn">
+              <img src="./imgs/friends/friend-9.jpg" alt="friend-image-9" />
+              <span
+                class="name trans-capitalize size-20 fw-bold c-silver mt-15 mb-10"
+                >gareeb elshiekh</span
+              >
+              <span class="skill trans-capitalize c-light-leaden size-15"
+                >javascript developer</span
+              >
+            </div>
+            <div class="body p-relative vip pt-20 pb-20 mt-20 mb-20">
+              <ul class="size-15">
+                <li class="mb-10">
+                  <i class="fa-regular fa-face-smile mr-10"></i>
+                  <span>90 Friend</span>
+                </li>
+                <li class="mb-10">
+                  <i class="fa-solid fa-bars-progress mr-10"></i>
+                  <span>15 Projects</span>
+                </li>
+                <li>
+                  <i class="fa-regular fa-newspaper mr-10"></i>
+                  <span>25 Articles</span>
+                </li>
+              </ul>
+            </div>
+            <div class="foot between-flex">
+              <div class="text">
+                <span class="c-light-leaden size-13">Joined 02/10/2020</span>
+              </div>
+              <div class="function">
+                <span
+                  class="trans-capitalize br-10 size-15 btn-shape bg-blue mr-5"
+                  >profile</span
+                >
+                <span class="trans-capitalize br-10 size-15 btn-shape bg-red"
+                  >remove</span
+                >
+              </div>
+            </div>
+          </div>
+
+          <div class="box bg-dark-leaden p-20 br-10 p-relative">
+            <div class="contact">
+              <i class="fa-solid fa-phone size-13 p-10 cursor-p mr-5"></i>
+              <i class="fa-regular fa-envelope size-13 p-10 cursor-p"></i>
+            </div>
+            <div class="head center-flex dir-coulmn">
+              <img src="./imgs/friends/friend-10.jpg" alt="friend-image-10" />
+              <span
+                class="name trans-capitalize size-20 fw-bold c-silver mt-15 mb-10"
+                >hamza</span
+              >
+              <span class="skill trans-capitalize c-light-leaden size-15"
+                >Front-End developer</span
+              >
+            </div>
+            <div class="body pt-20 pb-20 mt-20 mb-20">
+              <ul class="size-15">
+                <li class="mb-10">
+                  <i class="fa-regular fa-face-smile mr-10"></i>
+                  <span>80 Friend</span>
+                </li>
+                <li class="mb-10">
+                  <i class="fa-solid fa-bars-progress mr-10"></i>
+                  <span>20 Projects</span>
+                </li>
+                <li>
+                  <i class="fa-regular fa-newspaper mr-10"></i>
+                  <span>18 Articles</span>
+                </li>
+              </ul>
+            </div>
+            <div class="foot between-flex">
+              <div class="text">
+                <span class="c-light-leaden size-13">Joined 02/06/2020</span>
+              </div>
+              <div class="function">
+                <span
+                  class="trans-capitalize br-10 size-15 btn-shape bg-blue mr-5"
+                  >profile</span
+                >
+                <span class="trans-capitalize br-10 size-15 btn-shape bg-red"
+                  >remove</span
+                >
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script src="./javascript/fourthApp.js"></script>
+  </body>
+</html>

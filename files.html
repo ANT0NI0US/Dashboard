@@ -1,0 +1,616 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Dashboard</title>
+    <link rel="icon" href="./imgs/logo/logo.png" />
+    <meta
+      name="description"
+      content="This is my first dashboard using Html5 and CSS"
+    />
+    <link rel="stylesheet" href="./css/index.css" />
+    <link rel="stylesheet" href="./css/framework.css" />
+    <!-- font awesome library -->
+    <link rel="stylesheet" href="./css/all.min.css" />
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;500&#038;display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <div class="page d-flex">
+      <div class="sidebar p-20 p-relative bg-dark-leaden">
+        <h1 class="p-relative t-center c-silver trans-uppercase">totos</h1>
+        <ul class="mt-30">
+          <li>
+            <a
+              href="index.html"
+              class="trans-capitalize c-light-leaden d-flex align-center"
+            >
+              <i class="fa-solid fa-chart-line fa-fw mr-10"></i>
+              <span>dashboard</span>
+            </a>
+          </li>
+          <li>
+            <a
+              href="settings.html"
+              class="trans-capitalize c-light-leaden d-flex align-center"
+            >
+              <i class="fa-solid fa-gear fa-fw mr-10"></i>
+              <span>settings</span>
+            </a>
+          </li>
+          <li>
+            <a
+              href="profile.html"
+              class="trans-capitalize c-light-leaden d-flex align-center"
+            >
+              <i class="fa-solid fa-user fa-fw mr-10"></i>
+              <span>profile</span>
+            </a>
+          </li>
+          <li>
+            <a
+              href="projects.html"
+              class="trans-capitalize c-light-leaden d-flex align-center"
+            >
+              <i class="fa-solid fa-diagram-project fa-fw mr-10"></i>
+              <span>projects</span>
+            </a>
+          </li>
+          <li>
+            <a
+              href="courses.html"
+              class="trans-capitalize c-light-leaden d-flex align-center"
+            >
+              <i class="fa-solid fa-graduation-cap fa-fw mr-10"></i>
+              <span>courses</span>
+            </a>
+          </li>
+          <li>
+            <a
+              href="friends.html"
+              class="trans-capitalize c-light-leaden d-flex align-center"
+            >
+              <i class="fa-solid fa-user-group fa-fw mr-10"></i>
+              <span>friends</span>
+            </a>
+          </li>
+          <li>
+            <a
+              href="files.html"
+              class="active trans-capitalize c-light-leaden d-flex align-center"
+            >
+              <i class="fa-regular fa-file fa-fw mr-10"></i>
+              <span>files</span>
+            </a>
+          </li>
+          <li>
+            <a
+              href="plans.html"
+              class="trans-capitalize c-light-leaden d-flex align-center"
+            >
+              <i class="fa-regular fa-calendar-days fa-fw mr-10"></i>
+              <span>plans</span>
+            </a>
+          </li>
+        </ul>
+      </div>
+
+      <div class="content">
+        <div class="head bg-dark-leaden between-flex p-20">
+          <div class="search p-relative">
+            <input type="search" class="br-10" placeholder="Type A Keyword" />
+          </div>
+          <div class="notification between-flex">
+            <i class="fa-solid fa-bell c-light-leaden mr-20 p-relative"></i>
+            <img src="./imgs/profile/avatar.png" alt="avatar-image" />
+          </div>
+        </div>
+
+        <div class="main-paragraph">
+          <h2
+            class="paragraph-main p-20 trans-capitalize p-relative w-fit size-30 c-silver"
+          >
+            files
+          </h2>
+        </div>
+
+        <div class="files-content d-flex m-20 c-white">
+          <div class="files d-grid">
+            <div class="file bg-dark-leaden p-20 p-relative br-10">
+              <div class="download-icon">
+                <i class="fa-solid fa-download c-light-leaden"></i>
+              </div>
+              <div class="photo center-flex dir-coulmn">
+                <img src="./imgs/files/pdf.svg" alt="pdf-image" />
+                <h3 class="c-silver">my-file-pdf</h3>
+                <span class="trans-capitalize size-13 c-light-leaden"
+                  >totos</span
+                >
+              </div>
+              <div class="text between-flex">
+                <span class="c-light-leaden size-13">20/06/2020</span>
+                <span class="c-light-leaden size-13">5.5MB</span>
+              </div>
+            </div>
+
+            <div class="file bg-dark-leaden p-20 p-relative br-10">
+              <div class="download-icon">
+                <i class="fa-solid fa-download c-light-leaden"></i>
+              </div>
+              <div class="photo center-flex dir-coulmn">
+                <img src="./imgs/files/avi.svg" alt="avi-image" />
+                <h3 class="c-silver">my-file-avi</h3>
+                <span class="trans-capitalize size-13 c-light-leaden"
+                  >admin</span
+                >
+              </div>
+              <div class="text between-flex">
+                <span class="c-light-leaden size-13">16/5/2021</span>
+                <span class="c-light-leaden size-13">12.5MB </span>
+              </div>
+            </div>
+
+            <div class="file bg-dark-leaden p-20 p-relative br-10">
+              <div class="download-icon">
+                <i class="fa-solid fa-download c-light-leaden"></i>
+              </div>
+              <div class="photo center-flex dir-coulmn">
+                <img src="./imgs/files/eps.svg" alt="eps-image" />
+                <h3 class="c-silver">my-file-eps</h3>
+                <span class="trans-capitalize size-13 c-light-leaden"
+                  >uploader</span
+                >
+              </div>
+              <div class="text between-flex">
+                <span class="c-light-leaden size-13">16/5/2021</span>
+                <span class="c-light-leaden size-13">2.7MB</span>
+              </div>
+            </div>
+
+            <div class="file bg-dark-leaden p-20 p-relative br-10">
+              <div class="download-icon">
+                <i class="fa-solid fa-download c-light-leaden"></i>
+              </div>
+              <div class="photo center-flex dir-coulmn">
+                <img src="./imgs/files/psd.svg" alt="psd-image" />
+                <h3 class="c-silver">my-file-psd</h3>
+                <span class="trans-capitalize size-13 c-light-leaden"
+                  >osama</span
+                >
+              </div>
+              <div class="text between-flex">
+                <span class="c-light-leaden size-13">16/5/2021 </span>
+                <span class="c-light-leaden size-13">15.1MB</span>
+              </div>
+            </div>
+
+            <div class="file bg-dark-leaden p-20 p-relative br-10">
+              <div class="download-icon">
+                <i class="fa-solid fa-download c-light-leaden"></i>
+              </div>
+              <div class="photo center-flex dir-coulmn">
+                <img src="./imgs/files/dll.svg" alt="dll-image" />
+                <h3 class="c-silver">my-file-dll</h3>
+                <span class="trans-capitalize size-13 c-light-leaden"
+                  >coder</span
+                >
+              </div>
+              <div class="text between-flex">
+                <span class="c-light-leaden size-13">16/5/2021 </span>
+                <span class="c-light-leaden size-13">2.2MB</span>
+              </div>
+            </div>
+
+            <div class="file bg-dark-leaden p-20 p-relative br-10">
+              <div class="download-icon">
+                <i class="fa-solid fa-download c-light-leaden"></i>
+              </div>
+              <div class="photo center-flex dir-coulmn">
+                <img src="./imgs/files/png.svg" alt="png-image" />
+                <h3 class="c-silver">my-file-png</h3>
+                <span class="trans-capitalize size-13 c-light-leaden"
+                  >designer</span
+                >
+              </div>
+              <div class="text between-flex">
+                <span class="c-light-leaden size-13">16/5/2021</span>
+                <span class="c-light-leaden size-13">1.1MB</span>
+              </div>
+            </div>
+
+            <div class="file bg-dark-leaden p-20 p-relative br-10">
+              <div class="download-icon">
+                <i class="fa-solid fa-download c-light-leaden"></i>
+              </div>
+              <div class="photo center-flex dir-coulmn">
+                <img src="./imgs/files/pdf.svg" alt="pdf-image" />
+                <h3 class="c-silver">my-file-pdf</h3>
+                <span class="trans-capitalize size-13 c-light-leaden"
+                  >totos</span
+                >
+              </div>
+              <div class="text between-flex">
+                <span class="c-light-leaden size-13">20/06/2020</span>
+                <span class="c-light-leaden size-13">5.5MB</span>
+              </div>
+            </div>
+
+            <div class="file bg-dark-leaden p-20 p-relative br-10">
+              <div class="download-icon">
+                <i class="fa-solid fa-download c-light-leaden"></i>
+              </div>
+              <div class="photo center-flex dir-coulmn">
+                <img src="./imgs/files/avi.svg" alt="avi-image" />
+                <h3 class="c-silver">my-file-avi</h3>
+                <span class="trans-capitalize size-13 c-light-leaden"
+                  >admin</span
+                >
+              </div>
+              <div class="text between-flex">
+                <span class="c-light-leaden size-13">16/5/2021</span>
+                <span class="c-light-leaden size-13">12.5MB </span>
+              </div>
+            </div>
+
+            <div class="file bg-dark-leaden p-20 p-relative br-10">
+              <div class="download-icon">
+                <i class="fa-solid fa-download c-light-leaden"></i>
+              </div>
+              <div class="photo center-flex dir-coulmn">
+                <img src="./imgs/files/eps.svg" alt="eps-image" />
+                <h3 class="c-silver">my-file-eps</h3>
+                <span class="trans-capitalize size-13 c-light-leaden"
+                  >uploader</span
+                >
+              </div>
+              <div class="text between-flex">
+                <span class="c-light-leaden size-13">16/5/2021</span>
+                <span class="c-light-leaden size-13">2.7MB</span>
+              </div>
+            </div>
+
+            <div class="file bg-dark-leaden p-20 p-relative br-10">
+              <div class="download-icon">
+                <i class="fa-solid fa-download c-light-leaden"></i>
+              </div>
+              <div class="photo center-flex dir-coulmn">
+                <img src="./imgs/files/psd.svg" alt="psd-image" />
+                <h3 class="c-silver">my-file-psd</h3>
+                <span class="trans-capitalize size-13 c-light-leaden"
+                  >osama</span
+                >
+              </div>
+              <div class="text between-flex">
+                <span class="c-light-leaden size-13">16/5/2021 </span>
+                <span class="c-light-leaden size-13">15.1MB</span>
+              </div>
+            </div>
+
+            <div class="file bg-dark-leaden p-20 p-relative br-10">
+              <div class="download-icon">
+                <i class="fa-solid fa-download c-light-leaden"></i>
+              </div>
+              <div class="photo center-flex dir-coulmn">
+                <img src="./imgs/files/dll.svg" alt="dll-image" />
+                <h3 class="c-silver">my-file-dll</h3>
+                <span class="trans-capitalize size-13 c-light-leaden"
+                  >coder</span
+                >
+              </div>
+              <div class="text between-flex">
+                <span class="c-light-leaden size-13">16/5/2021 </span>
+                <span class="c-light-leaden size-13">2.2MB</span>
+              </div>
+            </div>
+
+            <div class="file bg-dark-leaden p-20 p-relative br-10">
+              <div class="download-icon">
+                <i class="fa-solid fa-download c-light-leaden"></i>
+              </div>
+              <div class="photo center-flex dir-coulmn">
+                <img src="./imgs/files/png.svg" alt="png-image" />
+                <h3 class="c-silver">my-file-png</h3>
+                <span class="trans-capitalize size-13 c-light-leaden"
+                  >designer</span
+                >
+              </div>
+              <div class="text between-flex">
+                <span class="c-light-leaden size-13">16/5/2021</span>
+                <span class="c-light-leaden size-13">1.1MB</span>
+              </div>
+            </div>
+
+            <div class="file bg-dark-leaden p-20 p-relative br-10">
+              <div class="download-icon">
+                <i class="fa-solid fa-download c-light-leaden"></i>
+              </div>
+              <div class="photo center-flex dir-coulmn">
+                <img src="./imgs/files/pdf.svg" alt="pdf-image" />
+                <h3 class="c-silver">my-file-pdf</h3>
+                <span class="trans-capitalize size-13 c-light-leaden"
+                  >totos</span
+                >
+              </div>
+              <div class="text between-flex">
+                <span class="c-light-leaden size-13">20/06/2020</span>
+                <span class="c-light-leaden size-13">5.5MB</span>
+              </div>
+            </div>
+
+            <div class="file bg-dark-leaden p-20 p-relative br-10">
+              <div class="download-icon">
+                <i class="fa-solid fa-download c-light-leaden"></i>
+              </div>
+              <div class="photo center-flex dir-coulmn">
+                <img src="./imgs/files/avi.svg" alt="avi-image" />
+                <h3 class="c-silver">my-file-avi</h3>
+                <span class="trans-capitalize size-13 c-light-leaden"
+                  >admin</span
+                >
+              </div>
+              <div class="text between-flex">
+                <span class="c-light-leaden size-13">16/5/2021</span>
+                <span class="c-light-leaden size-13">12.5MB </span>
+              </div>
+            </div>
+
+            <div class="file bg-dark-leaden p-20 p-relative br-10">
+              <div class="download-icon">
+                <i class="fa-solid fa-download c-light-leaden"></i>
+              </div>
+              <div class="photo center-flex dir-coulmn">
+                <img src="./imgs/files/eps.svg" alt="eps-image" />
+                <h3 class="c-silver">my-file-eps</h3>
+                <span class="trans-capitalize size-13 c-light-leaden"
+                  >uploader</span
+                >
+              </div>
+              <div class="text between-flex">
+                <span class="c-light-leaden size-13">16/5/2021</span>
+                <span class="c-light-leaden size-13">2.7MB</span>
+              </div>
+            </div>
+
+            <div class="file bg-dark-leaden p-20 p-relative br-10">
+              <div class="download-icon">
+                <i class="fa-solid fa-download c-light-leaden"></i>
+              </div>
+              <div class="photo center-flex dir-coulmn">
+                <img src="./imgs/files/psd.svg" alt="psd-image" />
+                <h3 class="c-silver">my-file-psd</h3>
+                <span class="trans-capitalize size-13 c-light-leaden"
+                  >osama</span
+                >
+              </div>
+              <div class="text between-flex">
+                <span class="c-light-leaden size-13">16/5/2021 </span>
+                <span class="c-light-leaden size-13">15.1MB</span>
+              </div>
+            </div>
+
+            <div class="file bg-dark-leaden p-20 p-relative br-10">
+              <div class="download-icon">
+                <i class="fa-solid fa-download c-light-leaden"></i>
+              </div>
+              <div class="photo center-flex dir-coulmn">
+                <img src="./imgs/files/dll.svg" alt="dll-image" />
+                <h3 class="c-silver">my-file-dll</h3>
+                <span class="trans-capitalize size-13 c-light-leaden"
+                  >coder</span
+                >
+              </div>
+              <div class="text between-flex">
+                <span class="c-light-leaden size-13">16/5/2021 </span>
+                <span class="c-light-leaden size-13">2.2MB</span>
+              </div>
+            </div>
+
+            <div class="file bg-dark-leaden p-20 p-relative br-10">
+              <div class="download-icon">
+                <i class="fa-solid fa-download c-light-leaden"></i>
+              </div>
+              <div class="photo center-flex dir-coulmn">
+                <img src="./imgs/files/png.svg" alt="png-image" />
+                <h3 class="c-silver">my-file-png</h3>
+                <span class="trans-capitalize size-13 c-light-leaden"
+                  >designer</span
+                >
+              </div>
+              <div class="text between-flex">
+                <span class="c-light-leaden size-13">16/5/2021</span>
+                <span class="c-light-leaden size-13">1.1MB</span>
+              </div>
+            </div>
+
+            <div class="file bg-dark-leaden p-20 p-relative br-10">
+              <div class="download-icon">
+                <i class="fa-solid fa-download c-light-leaden"></i>
+              </div>
+              <div class="photo center-flex dir-coulmn">
+                <img src="./imgs/files/pdf.svg" alt="pdf-image" />
+                <h3 class="c-silver">my-file-pdf</h3>
+                <span class="trans-capitalize size-13 c-light-leaden"
+                  >totos</span
+                >
+              </div>
+              <div class="text between-flex">
+                <span class="c-light-leaden size-13">20/06/2020</span>
+                <span class="c-light-leaden size-13">5.5MB</span>
+              </div>
+            </div>
+
+            <div class="file bg-dark-leaden p-20 p-relative br-10">
+              <div class="download-icon">
+                <i class="fa-solid fa-download c-light-leaden"></i>
+              </div>
+              <div class="photo center-flex dir-coulmn">
+                <img src="./imgs/files/avi.svg" alt="avi-image" />
+                <h3 class="c-silver">my-file-avi</h3>
+                <span class="trans-capitalize size-13 c-light-leaden"
+                  >admin</span
+                >
+              </div>
+              <div class="text between-flex">
+                <span class="c-light-leaden size-13">16/5/2021</span>
+                <span class="c-light-leaden size-13">12.5MB </span>
+              </div>
+            </div>
+
+            <div class="file bg-dark-leaden p-20 p-relative br-10">
+              <div class="download-icon">
+                <i class="fa-solid fa-download c-light-leaden"></i>
+              </div>
+              <div class="photo center-flex dir-coulmn">
+                <img src="./imgs/files/eps.svg" alt="eps-image" />
+                <h3 class="c-silver">my-file-eps</h3>
+                <span class="trans-capitalize size-13 c-light-leaden"
+                  >uploader</span
+                >
+              </div>
+              <div class="text between-flex">
+                <span class="c-light-leaden size-13">16/5/2021</span>
+                <span class="c-light-leaden size-13">2.7MB</span>
+              </div>
+            </div>
+
+            <div class="file bg-dark-leaden p-20 p-relative br-10">
+              <div class="download-icon">
+                <i class="fa-solid fa-download c-light-leaden"></i>
+              </div>
+              <div class="photo center-flex dir-coulmn">
+                <img src="./imgs/files/psd.svg" alt="psd-image" />
+                <h3 class="c-silver">my-file-psd</h3>
+                <span class="trans-capitalize size-13 c-light-leaden"
+                  >osama</span
+                >
+              </div>
+              <div class="text between-flex">
+                <span class="c-light-leaden size-13">16/5/2021 </span>
+                <span class="c-light-leaden size-13">15.1MB</span>
+              </div>
+            </div>
+
+            <div class="file bg-dark-leaden p-20 p-relative br-10">
+              <div class="download-icon">
+                <i class="fa-solid fa-download c-light-leaden"></i>
+              </div>
+              <div class="photo center-flex dir-coulmn">
+                <img src="./imgs/files/dll.svg" alt="dll-image" />
+                <h3 class="c-silver">my-file-dll</h3>
+                <span class="trans-capitalize size-13 c-light-leaden"
+                  >coder</span
+                >
+              </div>
+              <div class="text between-flex">
+                <span class="c-light-leaden size-13">16/5/2021 </span>
+                <span class="c-light-leaden size-13">2.2MB</span>
+              </div>
+            </div>
+
+            <div class="file bg-dark-leaden p-20 p-relative br-10">
+              <div class="download-icon">
+                <i class="fa-solid fa-download c-light-leaden"></i>
+              </div>
+              <div class="photo center-flex dir-coulmn">
+                <img src="./imgs/files/png.svg" alt="png-image" />
+                <h3 class="c-silver">my-file-png</h3>
+                <span class="trans-capitalize size-13 c-light-leaden"
+                  >designer</span
+                >
+              </div>
+              <div class="text between-flex">
+                <span class="c-light-leaden size-13">16/5/2021</span>
+                <span class="c-light-leaden size-13">1.1MB</span>
+              </div>
+            </div>
+          </div>
+          <div class="statistics bg-dark-leaden p-20 br-10">
+            <h2 class="c-silver trans-capitalize">files statistics</h2>
+            <div class="boxes">
+              <div
+                class="box d-flex justify-between align-center br-10 p-10 mb-10"
+              >
+                <div class="photo d-flex align-center">
+                  <div
+                    class="picture pdf mr-10 d-flex justify-center align-center br-10"
+                  >
+                    <i class="fa-solid fa-file-pdf c-blue"></i>
+                  </div>
+                  <div class="text d-flex dir-coulmn">
+                    <span class="size-15">PDF files</span>
+                    <span class="size-13 c-light-leaden">130 Files</span>
+                  </div>
+                </div>
+                <span class="size-13 c-light-leaden">6.5GB</span>
+              </div>
+
+              <div
+                class="box d-flex justify-between align-center br-10 p-10 mb-10"
+              >
+                <div class="photo d-flex align-center">
+                  <div
+                    class="picture images mr-10 d-flex justify-center align-center br-10"
+                  >
+                    <i class="fa-solid fa-images c-green"></i>
+                  </div>
+                  <div class="text d-flex dir-coulmn">
+                    <span class="size-15">Images</span>
+                    <span class="size-13 c-light-leaden">110 Files</span>
+                  </div>
+                </div>
+                <span class="size-13 c-light-leaden">3.5GB</span>
+              </div>
+
+              <div
+                class="box d-flex justify-between align-center br-10 p-10 mb-10"
+              >
+                <div class="photo d-flex align-center">
+                  <div
+                    class="picture word mr-10 d-flex justify-center align-center br-10"
+                  >
+                    <i class="fa-solid fa-file-word c-red"></i>
+                  </div>
+                  <div class="text d-flex dir-coulmn">
+                    <span class="size-15">Word files</span>
+                    <span class="size-13 c-light-leaden">110 Files</span>
+                  </div>
+                </div>
+                <span class="size-13 c-light-leaden">3.2GB</span>
+              </div>
+
+              <div class="box d-flex justify-between align-center br-10 p-10">
+                <div class="photo d-flex align-center">
+                  <div
+                    class="picture csv br-10 mr-10 d-flex justify-center align-center"
+                  >
+                    <i class="fa-solid fa-file-csv c-orange"></i>
+                  </div>
+                  <div class="text d-flex dir-coulmn">
+                    <span class="size-15">CSV files</span>
+                    <span class="size-13 c-light-leaden">99 Files</span>
+                  </div>
+                </div>
+                <span class="size-13 c-light-leaden">2.9GB</span>
+              </div>
+            </div>
+
+            <div
+              class="upload bg-blue d-flex align-center justify-center p-10 br-10 w-fit"
+            >
+              <i class="fa-solid fa-angles-up mr-10 p-relative"></i>
+              <span class="trans-uppercase">upload</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script src="./javascript/fourthApp.js"></script>
+  </body>
+</html>

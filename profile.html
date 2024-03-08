@@ -1,0 +1,457 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Dashboard</title>
+    <link rel="icon" href="./imgs/logo/logo.png" />
+    <meta
+      name="description"
+      content="This is my first dashboard using Html5 and CSS"
+    />
+    <link rel="stylesheet" href="./css/index.css" />
+    <link rel="stylesheet" href="./css/framework.css" />
+    <!-- font awesome library -->
+    <link rel="stylesheet" href="./css/all.min.css" />
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;500&#038;display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <div class="page d-flex">
+      <div class="sidebar p-20 p-relative bg-dark-leaden">
+        <h1 class="p-relative t-center c-silver trans-uppercase">totos</h1>
+        <ul class="mt-30">
+          <li>
+            <a
+              href="index.html"
+              class="trans-capitalize c-light-leaden d-flex align-center"
+            >
+              <i class="fa-solid fa-chart-line fa-fw mr-10"></i>
+              <span>dashboard</span>
+            </a>
+          </li>
+          <li>
+            <a
+              href="settings.html"
+              class="trans-capitalize c-light-leaden d-flex align-center"
+            >
+              <i class="fa-solid fa-gear fa-fw mr-10"></i>
+              <span>settings</span>
+            </a>
+          </li>
+          <li>
+            <a
+              href="profile.html"
+              class="active trans-capitalize c-light-leaden d-flex align-center"
+            >
+              <i class="fa-solid fa-user fa-fw mr-10"></i>
+              <span>profile</span>
+            </a>
+          </li>
+          <li>
+            <a
+              href="projects.html"
+              class="trans-capitalize c-light-leaden d-flex align-center"
+            >
+              <i class="fa-solid fa-diagram-project fa-fw mr-10"></i>
+              <span>projects</span>
+            </a>
+          </li>
+          <li>
+            <a
+              href="courses.html"
+              class="trans-capitalize c-light-leaden d-flex align-center"
+            >
+              <i class="fa-solid fa-graduation-cap fa-fw mr-10"></i>
+              <span>courses</span>
+            </a>
+          </li>
+          <li>
+            <a
+              href="friends.html"
+              class="trans-capitalize c-light-leaden d-flex align-center"
+            >
+              <i class="fa-solid fa-user-group fa-fw mr-10"></i>
+              <span>friends</span>
+            </a>
+          </li>
+          <li>
+            <a
+              href="files.html"
+              class="trans-capitalize c-light-leaden d-flex align-center"
+            >
+              <i class="fa-regular fa-file fa-fw mr-10"></i>
+              <span>files</span>
+            </a>
+          </li>
+          <li>
+            <a
+              href="plans.html"
+              class="trans-capitalize c-light-leaden d-flex align-center"
+            >
+              <i class="fa-regular fa-calendar-days fa-fw mr-10"></i>
+              <span>plans</span>
+            </a>
+          </li>
+        </ul>
+      </div>
+
+      <div class="content">
+        <div class="head bg-dark-leaden between-flex p-20">
+          <div class="search p-relative">
+            <input type="search" class="br-10" placeholder="Type A Keyword" />
+          </div>
+          <div class="notification between-flex">
+            <i class="fa-solid fa-bell c-light-leaden mr-20 p-relative"></i>
+            <img src="./imgs/profile/avatar.png" alt="avatar-image" />
+          </div>
+        </div>
+
+        <div class="main-paragraph">
+          <h2
+            class="paragraph-main p-20 trans-capitalize p-relative w-fit size-30 c-silver"
+          >
+            profile
+          </h2>
+        </div>
+
+        <div class="profile-content m-20 c-white">
+          <div class="profile d-flex bg-dark-leaden align-center br-10">
+            <div class="photo center-flex dir-coulmn p-20">
+              <img
+                src="./imgs/profile/avatar.png"
+                class="mb-10"
+                alt="avatar-image"
+              />
+              <h3 class="c-silver trans-uppercase center-flex mb-10 fw-bold">
+                totos nasr
+              </h3>
+              <span class="size-15 c-light-leaden mb-10">level 20</span>
+              <div class="limit mb-10">
+                <span class="bg-blue" style="width: 80%"></span>
+              </div>
+              <ul class="d-flex mb-10">
+                <li>
+                  <i class="fa-solid fa-star size-13"></i>
+                </li>
+                <li>
+                  <i class="fa-solid fa-star size-13"></i>
+                </li>
+                <li>
+                  <i class="fa-solid fa-star size-13"></i>
+                </li>
+                <li>
+                  <i class="fa-solid fa-star size-13"></i>
+                </li>
+                <li>
+                  <i class="fa-solid fa-star size-13"></i>
+                </li>
+              </ul>
+              <span class="size-13 c-light-leaden center-flex">550 rating</span>
+            </div>
+
+            <div class="informations">
+              <div class="info p-20">
+                <h4 class="c-silver trans-capitalize mb-10">
+                  General Information
+                </h4>
+                <div class="container d-flex justify-between f-wrap">
+                  <div class="box full-name d-flex align-center mr-20">
+                    <span class="trans-capitalize c-light-leaden mr-10"
+                      >full name:</span
+                    >
+                    <h5 class="trans-capitalize">totos nasr</h5>
+                  </div>
+                  <div class="box gender d-flex align-center mr-20">
+                    <span class="trans-capitalize c-light-leaden mr-10"
+                      >gender:</span
+                    >
+                    <h5 class="trans-capitalize">male</h5>
+                  </div>
+                  <div class="box country d-flex align-center mr-20">
+                    <span class="trans-capitalize c-light-leaden mr-10"
+                      >country:</span
+                    >
+                    <h5 class="trans-capitalize">egypt</h5>
+                  </div>
+                  <label class="mr-20">
+                    <input class="toggle-checkbox" type="checkbox" checked />
+                    <div class="toggle-switch"></div>
+                  </label>
+                </div>
+              </div>
+
+              <div class="info p-20">
+                <h4 class="c-silver trans-capitalize mb-10">
+                  personal Information
+                </h4>
+                <div class="container d-flex justify-between f-wrap">
+                  <div class="box email d-flex align-center mr-20">
+                    <span class="trans-capitalize c-light-leaden mr-10"
+                      >Email:</span
+                    >
+                    <h5 class="trans-capitalize">o@nn.sa</h5>
+                  </div>
+                  <div class="box phone d-flex align-center mr-20">
+                    <span class="trans-capitalize c-light-leaden mr-10"
+                      >Phone:</span
+                    >
+                    <h5 class="trans-capitalize">019123456789</h5>
+                  </div>
+                  <div class="box birth d-flex align-center mr-20">
+                    <span class="trans-capitalize c-light-leaden mr-10">
+                      Date Of Birth:</span
+                    >
+                    <h5 class="trans-capitalize">25/10/1982</h5>
+                  </div>
+                  <label class="mr-20">
+                    <input class="toggle-checkbox" type="checkbox" checked />
+                    <div class="toggle-switch"></div>
+                  </label>
+                </div>
+              </div>
+
+              <div class="info p-20">
+                <h4 class="c-silver trans-capitalize mb-10">job Information</h4>
+                <div class="container d-flex justify-between f-wrap">
+                  <div class="box title d-flex align-center mr-20">
+                    <span class="trans-capitalize c-light-leaden mr-10"
+                      >title:</span
+                    >
+                    <h5 class="trans-capitalize">full stack developer</h5>
+                  </div>
+                  <div class="box p-langauge d-flex align-center mr-20">
+                    <span class="trans-capitalize c-light-leaden mr-10"
+                      >Programming Language:</span
+                    >
+                    <h5 class="trans-capitalize">Python</h5>
+                  </div>
+                  <div class="box exp d-flex align-center mr-20">
+                    <span class="trans-capitalize c-light-leaden mr-10">
+                      Years Of Experience:</span
+                    >
+                    <h5 class="trans-capitalize">15+</h5>
+                  </div>
+                  <label class="mr-20">
+                    <input class="toggle-checkbox" type="checkbox" checked />
+                    <div class="toggle-switch"></div>
+                  </label>
+                </div>
+              </div>
+
+              <div class="info p-20">
+                <h4 class="c-silver trans-capitalize mb-10">
+                  billing Information
+                </h4>
+                <div class="container d-flex justify-between f-wrap">
+                  <div class="box payment-method d-flex align-center mr-20">
+                    <span class="trans-capitalize c-light-leaden mr-10"
+                      >payment method:</span
+                    >
+                    <h5 class="trans-capitalize">paypal</h5>
+                  </div>
+                  <div class="box email d-flex align-center mr-20">
+                    <span class="trans-capitalize c-light-leaden mr-10"
+                      >email:</span
+                    >
+                    <h5 class="trans-capitalize">email@website.com</h5>
+                  </div>
+                  <div class="box sub d-flex align-center mr-20">
+                    <span class="trans-capitalize c-light-leaden mr-10">
+                      Subscription:</span
+                    >
+                    <h5 class="trans-capitalize">monthly</h5>
+                  </div>
+                  <label class="mr-20">
+                    <input class="toggle-checkbox" type="checkbox" checked />
+                    <div class="toggle-switch"></div>
+                  </label>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="skills-activites d-flex mt-20">
+            <div class="skills bg-dark-leaden p-20 br-10">
+              <div class="text">
+                <h3 class="c-silver trans-capitalize mb-10">my skills</h3>
+                <p class="size-15 c-light-leaden">complete skills list</p>
+              </div>
+              <ul class="mt-20">
+                <li class="center-flex f-wrap">
+                  <span class="bg-blue btn-shape br-10 size-14 mr-10"
+                    >HTML</span
+                  >
+                  <span class="bg-blue btn-shape br-10 size-14 mr-10"
+                    >Pugjs</span
+                  >
+                  <span class="bg-blue btn-shape br-10 size-14 mr-10"
+                    >HAML</span
+                  >
+                </li>
+                <li class="center-flex f-wrap">
+                  <span class="bg-blue btn-shape br-10 size-14 mr-10">CSS</span>
+                  <span class="bg-blue btn-shape br-10 size-14 mr-10"
+                    >SASS</span
+                  >
+                  <span class="bg-blue btn-shape br-10 size-14 mr-10"
+                    >Stylus</span
+                  >
+                </li>
+                <li class="center-flex f-wrap">
+                  <span class="bg-blue btn-shape br-10 size-14 mr-10"
+                    >JavaScript</span
+                  >
+                  <span class="bg-blue btn-shape br-10 size-14 mr-10"
+                    >TypeScript</span
+                  >
+                </li>
+                <li class="center-flex f-wrap">
+                  <span class="bg-blue btn-shape br-10 size-14 mr-10"
+                    >Vuejs</span
+                  >
+                  <span class="bg-blue btn-shape br-10 size-14 mr-10"
+                    >Reactjs</span
+                  >
+                </li>
+                <li class="center-flex f-wrap">
+                  <span class="bg-blue btn-shape br-10 size-14 mr-10"
+                    >Jest</span
+                  >
+                  <span class="bg-blue btn-shape br-10 size-14 mr-10"
+                    >Jasmine</span
+                  >
+                </li>
+                <li class="center-flex f-wrap">
+                  <span class="bg-blue btn-shape br-10 size-14 mr-10">PHP</span>
+                  <span class="bg-blue btn-shape br-10 size-14 mr-10"
+                    >Laravel</span
+                  >
+                </li>
+                <li class="center-flex f-wrap">
+                  <span class="bg-blue btn-shape br-10 size-14 mr-10"
+                    >Python</span
+                  >
+                  <span class="bg-blue btn-shape br-10 size-14 mr-10"
+                    >Django</span
+                  >
+                </li>
+              </ul>
+            </div>
+
+            <div class="activites bg-dark-leaden p-20 br-10">
+              <div class="text">
+                <h3 class="c-silver trans-capitalize mb-10">
+                  Latest Activities
+                </h3>
+                <p class="size-15 c-light-leaden">
+                  Latest Activities Done By The User
+                </p>
+              </div>
+              <ul class="d-flex dir-coulmn mt-20">
+                <li class="d-flex align-center justify-between">
+                  <div class="activite d-flex align-center">
+                    <div class="photo mr-20">
+                      <img
+                        src="./imgs/profile-pic/activity-01.png"
+                        alt="activity-image-1"
+                      />
+                    </div>
+                    <div class="text">
+                      <span class="trans-capitalize">store</span>
+                      <p class="c-light-leaden trans-capitalize mt-10">
+                        Bought The Mastering Python Course
+                      </p>
+                    </div>
+                  </div>
+                  <div class="time d-flex dir-coulmn align-center">
+                    <span>18:10</span>
+                    <span class="c-light-leaden trans-capitalize mt-10"
+                      >yesterday</span
+                    >
+                  </div>
+                </li>
+
+                <li class="d-flex align-center justify-between">
+                  <div class="activite d-flex align-center">
+                    <div class="photo mr-20">
+                      <img
+                        src="./imgs/profile-pic/activity-02.png"
+                        alt="activity-image-2"
+                      />
+                    </div>
+                    <div class="text">
+                      <span class="trans-capitalize">Academy</span>
+                      <p class="c-light-leaden trans-capitalize mt-10">
+                        Got The PHP Certificate
+                      </p>
+                    </div>
+                  </div>
+                  <div class="time d-flex dir-coulmn align-center">
+                    <span>16:05</span>
+                    <span class="c-light-leaden trans-capitalize mt-10"
+                      >yesterday</span
+                    >
+                  </div>
+                </li>
+
+                <li class="d-flex align-center justify-between">
+                  <div class="activite d-flex align-center">
+                    <div class="photo mr-20">
+                      <img
+                        src="./imgs/profile-pic/activity-03.png"
+                        alt="activity-image-2"
+                      />
+                    </div>
+                    <div class="text">
+                      <span class="trans-capitalize">Badges</span>
+                      <p class="c-light-leaden trans-capitalize mt-10">
+                        Unlocked The 10 Skills Badge
+                      </p>
+                    </div>
+                  </div>
+                  <div class="time d-flex dir-coulmn align-center">
+                    <span>18:05</span>
+                    <span class="c-light-leaden trans-capitalize mt-10"
+                      >yesterday</span
+                    >
+                  </div>
+                </li>
+
+                <li class="d-flex align-center justify-between">
+                  <div class="activite d-flex align-center">
+                    <div class="photo mr-20">
+                      <img
+                        src="./imgs/profile-pic/activity-01.png"
+                        alt="activity-image-1"
+                      />
+                    </div>
+                    <div class="text">
+                      <span class="trans-capitalize">Store</span>
+                      <p class="c-light-leaden trans-capitalize mt-10">
+                        Bought The Typescript Course
+                      </p>
+                    </div>
+                  </div>
+                  <div class="time d-flex dir-coulmn align-center">
+                    <span>12:05</span>
+                    <span class="c-light-leaden trans-capitalize mt-10"
+                      >yesterday</span
+                    >
+                  </div>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script src="./javascript/fourthApp.js"></script>
+  </body>
+</html>

@@ -1,0 +1,441 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Dashboard</title>
+    <link rel="icon" href="./imgs/logo/logo.png" />
+    <meta
+      name="description"
+      content="This is my first dashboard using Html5 and CSS"
+    />
+    <link rel="stylesheet" href="./css/index.css" />
+    <link rel="stylesheet" href="./css/framework.css" />
+    <!-- font awesome library -->
+    <link rel="stylesheet" href="./css/all.min.css" />
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;500&#038;display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <div class="page d-flex">
+      <div class="sidebar p-20 p-relative bg-dark-leaden">
+        <h1 class="p-relative t-center c-silver trans-uppercase">totos</h1>
+        <ul class="mt-30">
+          <li>
+            <a
+              href="index.html"
+              class="trans-capitalize c-light-leaden d-flex align-center"
+            >
+              <i class="fa-solid fa-chart-line fa-fw mr-10"></i>
+              <span>dashboard</span>
+            </a>
+          </li>
+          <li>
+            <a
+              href="settings.html"
+              class="active trans-capitalize c-light-leaden d-flex align-center"
+            >
+              <i class="fa-solid fa-gear fa-fw mr-10"></i>
+              <span>settings</span>
+            </a>
+          </li>
+          <li>
+            <a
+              href="profile.html"
+              class="trans-capitalize c-light-leaden d-flex align-center"
+            >
+              <i class="fa-solid fa-user fa-fw mr-10"></i>
+              <span>profile</span>
+            </a>
+          </li>
+          <li>
+            <a
+              href="projects.html"
+              class="trans-capitalize c-light-leaden d-flex align-center"
+            >
+              <i class="fa-solid fa-diagram-project fa-fw mr-10"></i>
+              <span>projects</span>
+            </a>
+          </li>
+          <li>
+            <a
+              href="courses.html"
+              class="trans-capitalize c-light-leaden d-flex align-center"
+            >
+              <i class="fa-solid fa-graduation-cap fa-fw mr-10"></i>
+              <span>courses</span>
+            </a>
+          </li>
+          <li>
+            <a
+              href="friends.html"
+              class="trans-capitalize c-light-leaden d-flex align-center"
+            >
+              <i class="fa-solid fa-user-group fa-fw mr-10"></i>
+              <span>friends</span>
+            </a>
+          </li>
+          <li>
+            <a
+              href="files.html"
+              class="trans-capitalize c-light-leaden d-flex align-center"
+            >
+              <i class="fa-regular fa-file fa-fw mr-10"></i>
+              <span>files</span>
+            </a>
+          </li>
+          <li>
+            <a
+              href="plans.html"
+              class="trans-capitalize c-light-leaden d-flex align-center"
+            >
+              <i class="fa-regular fa-calendar-days fa-fw mr-10"></i>
+              <span>plans</span>
+            </a>
+          </li>
+        </ul>
+      </div>
+
+      <div class="content">
+        <div class="head bg-dark-leaden between-flex p-20">
+          <div class="search p-relative">
+            <input type="search" class="br-10" placeholder="Type A Keyword" />
+          </div>
+          <div class="notification between-flex">
+            <i class="fa-solid fa-bell c-light-leaden mr-20 p-relative"></i>
+            <img src="./imgs/profile/avatar.png" alt="avatar-image" />
+          </div>
+        </div>
+
+        <div class="main-paragraph">
+          <h2
+            class="paragraph-main p-20 trans-capitalize p-relative w-fit size-30 c-silver"
+          >
+            settings
+          </h2>
+        </div>
+
+        <div class="settings-content d-grid m-20 c-white">
+          <div class="site-control bg-dark-leaden p-20 br-10">
+            <div class="head">
+              <h3 class="trans-capitalize c-silver mb-5 fw-bold">
+                site control
+              </h3>
+              <p class="trans-capitalize size-15 c-light-leaden">
+                Control The Website If There Is Maintenance
+              </p>
+            </div>
+
+            <div class="website-control mt-20 mb-20 d-flex dir-coulmn">
+              <span class="trans-capitalize c-silver mb-10"
+                >website control</span
+              >
+              <div class="toogle-website between-flex">
+                <p class="size-13 c-light-leaden trans-capitalize">
+                  Open/Close Website And Type The Reason
+                </p>
+                <label>
+                  <input class="toggle-checkbox" type="checkbox" checked />
+                  <div class="toggle-switch"></div>
+                </label>
+              </div>
+            </div>
+
+            <textarea
+              placeholder="close message content"
+              class="p-15 br-10"
+            ></textarea>
+          </div>
+
+          <div class="general-info bg-dark-leaden p-20 br-10">
+            <div class="head">
+              <h3 class="trans-capitalize c-silver mb-5">General Info</h3>
+              <p class="trans-capitalize size-15 c-light-leaden">
+                General Information About Your Account
+              </p>
+            </div>
+
+            <div class="body mt-20">
+              <div class="name d-flex dir-coulmn mb-20">
+                <label
+                  for="first-name"
+                  class="trans-capitalize mb-10 c-light-leaden"
+                  >first name</label
+                >
+                <input
+                  type="text"
+                  name=""
+                  id="first-name"
+                  placeholder="first name"
+                  class="bg-dark-leaden p-10 br-10"
+                />
+              </div>
+
+              <div class="name d-flex dir-coulmn mb-20">
+                <label
+                  for="last-name"
+                  class="trans-capitalize mb-10 c-light-leaden"
+                  >last name</label
+                >
+                <input
+                  type="text"
+                  name=""
+                  id="last-name"
+                  placeholder="last name"
+                  class="bg-dark-leaden p-10 br-10"
+                />
+              </div>
+            </div>
+
+            <div class="foot">
+              <div class="email d-flex dir-coulmn">
+                <label
+                  for="visable-email"
+                  class="trans-capitalize mb-10 c-light-leaden"
+                  >email</label
+                >
+                <div class="changing-email d-flex align-center">
+                  <input
+                    type="email"
+                    id="visable-email"
+                    value="totos"
+                    class="p-10 br-10 mr-20"
+                    readonly
+                  />
+                  <span class="c-blue cursor-p">change</span>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="security-info bg-dark-leaden p-20 br-10">
+            <div class="head">
+              <h3 class="trans-capitalize c-silver mb-5">Security Info</h3>
+              <p class="trans-capitalize size-15 c-light-leaden">
+                Security Information About Your Account
+              </p>
+            </div>
+
+            <div class="security mt-20">
+              <div class="box d-flex dir-coulmn pb-10">
+                <h4 class="trans-capitalize c-silver">password</h4>
+                <div class="change between-flex">
+                  <p class="size-13 c-light-leaden trans-capitalize">
+                    Last Change On 25/10/2021
+                  </p>
+                  <span class="animate br-10 btn-shape bg-blue cursor-p"
+                    >change</span
+                  >
+                </div>
+              </div>
+
+              <div class="box d-flex dir-coulmn pt-10 pb-10">
+                <h4 class="trans-capitalize c-silver">
+                  Two-Factor Authentication
+                </h4>
+                <div class="factor between-flex">
+                  <p class="size-13 c-light-leaden trans-capitalize">
+                    Enable/Disable The Feature
+                  </p>
+                  <label>
+                    <input class="toggle-checkbox" type="checkbox" checked />
+                    <div class="toggle-switch"></div>
+                  </label>
+                </div>
+              </div>
+
+              <div class="box d-flex dir-coulmn pt-10">
+                <h4 class="trans-capitalize c-silver">Devices</h4>
+                <div class="check-dev between-flex">
+                  <p class="size-13 c-light-leaden trans-capitalize">
+                    Check The Login Devices List
+                  </p>
+                  <span class="br-10 btn-shape cursor-p">devices</span>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="social-info bg-dark-leaden p-20 br-10">
+            <div class="head">
+              <h3 class="trans-capitalize c-silver mb-5">Social Info</h3>
+              <p class="trans-capitalize size-15 c-light-leaden">
+                Social Media Information
+              </p>
+            </div>
+
+            <div class="body mt-20">
+              <div class="social d-flex align-center mb-20 br-10 pl-10">
+                <i class="fa-brands fa-twitter fa-fw mr-10"></i>
+                <input
+                  type="text"
+                  placeholder="twitter username"
+                  class="p-10"
+                />
+              </div>
+
+              <div class="social d-flex align-center mb-20 br-10 pl-10">
+                <i class="fa-brands fa-facebook fa-fw mr-10"></i>
+                <input
+                  type="text"
+                  placeholder="facebook username"
+                  class="p-10"
+                />
+              </div>
+
+              <div class="social d-flex align-center mb-20 br-10 pl-10">
+                <i class="fa-brands fa-linkedin fa-fw mr-10"></i>
+                <input
+                  type="text"
+                  placeholder="linkedin username"
+                  class="p-10"
+                />
+              </div>
+
+              <div class="social d-flex align-center br-10 pl-10">
+                <i class="fa-brands fa-youtube fa-fw mr-10"></i>
+                <input
+                  type="text"
+                  placeholder="youtube username"
+                  class="p-10"
+                />
+              </div>
+            </div>
+          </div>
+
+          <div class="widgets-control bg-dark-leaden p-20 br-10">
+            <div class="head">
+              <h3 class="trans-capitalize c-silver mb-5">Widgets Control</h3>
+              <p class="trans-capitalize size-15 c-light-leaden">
+                Show/Hide Widgets
+              </p>
+            </div>
+            <div class="widgets mt-20">
+              <div class="widget mb-10">
+                <input type="checkbox" id="first" class="mr-30" checked />
+                <label for="first" class="trans-capitalize p-relative"
+                  >Quick Draft</label
+                >
+              </div>
+
+              <div class="widget mb-10">
+                <input type="checkbox" id="second" class="mr-30" checked />
+                <label for="second" class="trans-capitalize p-relative"
+                  >Yearly Targets</label
+                >
+              </div>
+
+              <div class="widget mb-10">
+                <input type="checkbox" id="third" class="mr-30" checked />
+                <label for="third" class="trans-capitalize p-relative"
+                  >Tickets Statistics</label
+                >
+              </div>
+
+              <div class="widget mb-10">
+                <input type="checkbox" id="fourth" class="mr-30" checked />
+                <label for="fourth" class="trans-capitalize p-relative"
+                  >Latest News</label
+                >
+              </div>
+
+              <div class="widget mb-10">
+                <input type="checkbox" id="fifth" class="mr-30" />
+                <label for="fifth" class="trans-capitalize p-relative"
+                  >Latest Tasks</label
+                >
+              </div>
+
+              <div class="widget">
+                <input type="checkbox" id="six" class="mr-30" checked />
+                <label for="six" class="trans-capitalize p-relative"
+                  >Top Search Items</label
+                >
+              </div>
+            </div>
+          </div>
+
+          <div class="bakup-manager bg-dark-leaden p-20 br-10">
+            <div class="head">
+              <h3 class="trans-capitalize c-silver mb-5">Backup Manager</h3>
+              <p class="trans-capitalize size-15 c-light-leaden">
+                Control Backup Time And Location
+              </p>
+            </div>
+
+            <div class="time-control mt-20">
+              <div class="time mb-5">
+                <input
+                  type="radio"
+                  id="daily"
+                  name="time"
+                  class="mr-30"
+                  checked
+                />
+                <label for="daily" class="trans-capitalize p-relative"
+                  >daily</label
+                >
+              </div>
+
+              <div class="time mb-5">
+                <input type="radio" id="weekly" name="time" class="mr-30" />
+                <label for="weekly" class="trans-capitalize p-relative"
+                  >weekly</label
+                >
+              </div>
+
+              <div class="time">
+                <input type="radio" id="monthly" name="time" class="mr-30" />
+                <label for="monthly" class="trans-capitalize p-relative"
+                  >monthly</label
+                >
+              </div>
+            </div>
+
+            <div class="location-control mt-20 d-flex align-center">
+              <input type="radio" name="location" id="location-one" />
+              <div class="location br-10 p-15">
+                <label
+                  class="photo d-flex dir-coulmn justify-center align-center trans-capitalize"
+                  for="location-one"
+                >
+                  <i class="fa-solid fa-earth-americas mb-10"></i>
+                  megaman
+                </label>
+              </div>
+
+              <input type="radio" name="location" id="location-two" checked />
+              <div class="location br-10 p-15">
+                <label
+                  class="photo d-flex dir-coulmn justify-center align-center trans-capitalize"
+                  for="location-two"
+                >
+                  <i class="fa-solid fa-earth-americas mb-10"></i>
+                  totos
+                </label>
+              </div>
+
+              <input type="radio" name="location" id="location-three" />
+              <div class="location br-10 p-15">
+                <label
+                  class="photo d-flex dir-coulmn justify-center align-center trans-capitalize"
+                  for="location-three"
+                >
+                  <i class="fa-solid fa-earth-americas mb-10"></i>
+                  sigma
+                </label>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script src="./javascript/fourthApp.js"></script>
+  </body>
+</html>
